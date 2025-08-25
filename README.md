@@ -1,5 +1,5 @@
 # 4 Week Internship by VLSI System Design
-## Topic: VSDSquadron mini RISC-V
+## Topic: FPGA practice with hands-on-labs
 **Task 1**
 Download leafpad for writing up the c code.
 ```
