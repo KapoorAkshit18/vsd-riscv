@@ -1,5 +1,11 @@
-# 4 Week Internship by VLSI System Design
-## Topic: FPGA practice with hands-on-labs
+# 4 Week Internship by VLSI System Design by Kunal Ghosh
+## Focus: Hardware synthesis on the FPGA (VSDSquadron) 
+
+<details>
+</summary>About VSDSquadron</summary>
+  
+</details>
+
 **Task 1**
 Download leafpad for writing up the c code.
 ```
