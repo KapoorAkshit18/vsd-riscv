@@ -1,6 +1,6 @@
 Download leafpad for writing up the c code.
-'sudo apt update
-sudo snap install leafpad' 
+''sudo apt update''
+''sudo snap install leafpad' '
 
 
 commands to run c program:
