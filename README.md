@@ -5,7 +5,9 @@ sudo snap install leafpad
 ```
 
 
-commands to run c program:
+commands to run for running the c program:
 
+```
 gcc <name of you c file.c>
 .a/out
+```
