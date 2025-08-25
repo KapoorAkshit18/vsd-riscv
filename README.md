@@ -1,4 +1,5 @@
-##  VSDSquadron mini RISC-V Internship
+# 4 Week Internship by VLSI System Design
+## Topic: VSDSquadron mini RISC-V
 **Task 1**
 Download leafpad for writing up the c code.
 ```
