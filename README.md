@@ -41,7 +41,8 @@ First create a folder of the c file with .o extension
 
 `riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum_1_to_n.o sum_1_to_n.c`
 
-<!--lp = longpointer -->
+<!--lp = longpointer -->  
+<details>Following this command 4 steps internally occurs i.e preprocess--->compile--->assemble--->link Elf here is Executable Linkable Form, mabi is Machine Applicable Binary Interface, march is Machine Architecture.</details>
 
 After that the converted C code to the assembly language is readed by the following command:  
 
@@ -58,8 +59,13 @@ Piped with less command is more convenient and by typing `/main` we can scroll e
 To run the same command used earlier with a small modification.  
 
 `riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum_1_to_n.o sum_1_to_n.c`  
+now, after that we will run the objdump command used earlier piped with less in the new tab
 
-<details>Following this command 4 steps internally occurs i.e preprocess--->compile--->assemble--->link Elf here is Executable Linkable Form, mabi is Machine Applicable Binary Interface, march is Machine Architecture.</details>
+`riscv64-unknown-elf-objdump -d sum_1_to_n.o | less `  
+Following that we will run the below command:  
+`spike pk sum_1_to_n.o`
 
+<details> </details>
+After that we will use the below command when we need to do the debugging.  
 
-
+`spike -d pk sum_1_to_n.o`   
