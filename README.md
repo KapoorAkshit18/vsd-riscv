@@ -2,7 +2,7 @@
 ## Focus: Hardware synthesis on the FPGA (VSDSquadron) 
 
 <details>
-<summary>About VSDSquadron</summary>
+<summary>About VSDSquadron and platform used throuout the internship</summary>
 
 
 
