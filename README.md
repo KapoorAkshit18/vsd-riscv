@@ -30,5 +30,10 @@ First create a folder of the c file with .o extension
 
 After that the converted C code to the assembly language is readed by the following command:
 `riscv64-unknown-elf-objdump -d sum_1_to_n.o`    <!-- d is disassemble
+In the assemble code search for main
+Certain calculations reveals Byte addressing and for int type it is 4 bytes so, it is increamented accordingly. Moreover, The total instructions were 11 and next instruction is correct is verified for the c program.
+Below instruction is more convenient and by typing `/main` we can scroll easily and find the required main program.
+`riscv64-unknown-elf-objdump -d sum_1_to_n.o | less `
+
 
 
