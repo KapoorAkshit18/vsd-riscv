@@ -31,7 +31,7 @@ commands to run for running the c program:
 
 ```
 gcc <name of you c file.c>
-.a/out
+./a.out
 ```
 here the *gcc* command (GNU C Compiler) is used to compile the c code in linux
 commands used to run the c program in the riscv  
