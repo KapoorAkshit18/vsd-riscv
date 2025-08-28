@@ -39,7 +39,7 @@ commands used to run the c program in the riscv
 **Task 2**
 First create a folder of the c file with .o extension
 
-`riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum_1_to_n.o sum_1_to_n.c`
+`riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum_1_to_n_o1.o sum_1_to_n.c`
 
 <!--lp = longpointer -->  
 <details>Following this command 4 steps internally occurs i.e preprocess--->compile--->assemble--->link Elf here is Executable Linkable Form, mabi is Machine Applicable Binary Interface, march is Machine Architecture.</details>
@@ -56,12 +56,12 @@ Piped with less command is more convenient and by typing `/main` we can scroll e
 
 
 **Task 3**  
-To run the same command used earlier with a small modification.  
+To run the same command used earlier with a small modification. 
 
-`riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum_1_to_n.o sum_1_to_n.c`  
+`riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum_1_to_n_ofast.o sum_1_to_n.c`  
 now, after that we will run the objdump command used earlier piped with less in the new tab
 
-`riscv64-unknown-elf-objdump -d sum_1_to_n.o | less `  
+`riscv64-unknown-elf-objdump -d sum_1_to_n.o | less ` (one which was compiled with fast optimization) It is recommended to change the object file name for each optimization, initially for understanding purposes
 Following that we will run the below command:  
 `spike pk sum_1_to_n.o`
 
