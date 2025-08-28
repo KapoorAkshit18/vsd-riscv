@@ -17,4 +17,6 @@ lui and aui.
 Both are of 32 bits and internally works by shifting the bits to the left and storing it to the destination register.
 eg:
 ` lui a1,0x8000`
-this will make a1 lower 12 bit to be zero or garbage value and upper 20 bits to be 0x80000 in hexadecimal. Simillarly, aui but 
+this will make a1 lower 12 bit to be zero or garbage value and upper 20 bits to be 0x80000 in hexadecimal. Simillarly, addi but with addition to the existing value.
+eg:  
+`addi sp, sp, -16`
