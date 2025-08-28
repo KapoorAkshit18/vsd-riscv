@@ -1,13 +1,13 @@
-#include<stdio.h>                            // standard input output header which have printf scanf etc 
+#include<stdio.h>
 
 int main() {
-	 int i, sum=0, n=-2147483647;			 // initializing the variable for count, and addition and the range n
+	 int i, sum=0, n=150;
 
-	for (i=1; i<=n; ++i) {					  // loop till sum of n nos. is achieved
+	for (i=1; i<=n; ++i) {            
 
-	sum+=i;										// compound assignment or single step shortcut
+	sum+=i;       //equivalent to sum = sum + i
 }
 	printf("Sum of numbers from 1 to %d is %d\n",n, sum);
 	
-	return 0;										// program is finished OS
+	return 0;
 }
