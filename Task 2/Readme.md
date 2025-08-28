@@ -13,5 +13,5 @@ After that the converted C code to the assembly language is readed by the follow
 `riscv64-unknown-elf-objdump -d sum_1_to_n.o | less `  
 <details>In the assemble code search for main
 Certain calculations reveals Byte addressing and for int type it is 4 bytes so, it is increamented accordingly.
-Piped with less command is more convenient and by typing `/main` we can scroll easily and find the required main program. Use CTRL+Z to come out of the object code.Calculation shows
+Piped with less command is more convenient and by typing `/main` we can scroll easily and find the required main program. Use CTRL+Z to come out of the object code.Calculation of calc1 and calc2 shows action of o1 and ofast.
 </details>
