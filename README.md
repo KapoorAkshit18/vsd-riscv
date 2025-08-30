@@ -5,7 +5,7 @@
 <summary>About VSDSquadron and platform used throuout the internship</summary>
 
 
-
+Feel free to explore the Tasks folders where you will find the necessary codes along with its png file.
 
 
 
