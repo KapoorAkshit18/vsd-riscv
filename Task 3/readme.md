@@ -21,4 +21,4 @@ this will make a1 lower 12 bit to be zero or garbage value and upper 20 bits to 
 eg:  
 `addi sp, sp, -16`
 Task 2/sum_1_to_n_ofast.o
-<img src="Task 2/o1.png" alt="Alt text" width="300">
+<img src="https://github.com/KapoorAkshit18/vsd-riscv/blob/main/Task%202%2Fo1.png" alt="Alt text" width="300">
