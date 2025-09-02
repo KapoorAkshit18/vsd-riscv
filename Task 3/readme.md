@@ -5,7 +5,7 @@
 now, after that we will run the objdump command used earlier piped with less in the new tab
 
 `riscv64-unknown-elf-objdump -d sum_1_to_n.o | less ` (one which was compiled with fast optimization) It is recommended to change the object file name for each optimization, initially for understanding purposes
-</detail>
+</details>
 Following that we will run the below command:  
 `spike -d pk sum_1_to_n_ofast.o`
 then, we will specify the program counter value so, to run our program's instruction one by one.
