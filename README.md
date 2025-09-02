@@ -73,7 +73,7 @@ After that we will use the below command when we need to do the debugging.
 
 **Task 3**  
 To study about the RISCV asm instructions with a focus on our program's asm.
-
+```
 I-type: opcode[6:0] | rd[11:7] | funct3[14:12] | rs1[19:15] | imm[31:20]
 
 S-type: opcode[6:0] | imm[11:7] | funct3[14:12] | rs1[19:15] | rs2[24:20] | imm[31:25]
@@ -83,6 +83,7 @@ B-type: branch offset split across fields
 U-type: opcode[6:0] | rd[11:7] | imm[31:12]
 
 J-type: jump target split across fields
+```
 
 Registers: x2 = sp, x1 = ra, x10 = a0, x11 = a1, x12 = a2, x15 = a5
 15 uniques instructions were:
