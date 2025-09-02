@@ -11,7 +11,8 @@ Following that we will run the below command:
 `spike -d pk sum_1_to_n_ofast.o`
 
   
-then, we will specify the program counter value so, to run our program's instruction one by one.  
+then, we will specify the program counter value so, to run our program's instruction one by one.    
+`until pc 0 10184`
 
 Write below command for checking contents of the register:  
 `reg <x0> <alias>`
