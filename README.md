@@ -69,7 +69,10 @@ Following that we will run the below command:
 <details> </details>
 After that we will use the below command when we need to do the debugging.  
 
-`spike -d pk sum_1_to_n.o`   
+`spike -d pk sum_1_to_n.o`     
+type until pc 0 10184   
+
+not necessary 10184 it depends upon where does your main instruction starts.
 
 **Task 3**  
 To study about the RISCV asm instructions with a focus on our program's asm.
