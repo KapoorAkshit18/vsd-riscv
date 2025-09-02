@@ -2,7 +2,8 @@
 ## Focus: Hardware synthesis on the FPGA (VSDSquadron) 
 
 <details>
-<summary>About VSDSquadron and platform used throuout the internship</summary>
+<summary>About VSDSquadron and platform used throuout the internship.Few abbreviations <asm> means assembly.  
+</summary>
 
 
 Feel free to explore the Tasks folders where you will find the necessary codes along with its png file.
@@ -55,7 +56,7 @@ Piped with less command is more convenient and by typing `/main` we can scroll e
 </details>
 
 
-**Task 3**  
+**Task 2 continues**  
 To run the same command used earlier with a small modification. 
 
 `riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum_1_to_n_ofast.o sum_1_to_n.c`  
@@ -69,3 +70,88 @@ Following that we will run the below command:
 After that we will use the below command when we need to do the debugging.  
 
 `spike -d pk sum_1_to_n.o`   
+
+**Task 3**  
+To study about the RISCV asm instructions with a focus on our program's asm.
+
+15 uniques instructions were:
+
+<!-- addi sp,sp,-16    
+adds content of sp wit negative 16 and stores the result in sp.  
+32 bit instruction code:  
+
+sd ra,8(sp)    
+
+li a5,150    
+
+addiw a5,a5,-1  
+
+bnez a5,10190    
+
+lui a2,0x3    
+
+addi a2,a2,-963  
+
+li a1,150  
+
+lui a0,0x21  
+
+addi a0,a0,400  
+
+jal ra,10418  
+
+li a0,0  
+
+ld ra,8(sp)  
+
+ addi sp,sp,16    
+ 
+ ret  -->
+### RISC-V 32-bit Instruction Encodings
+
+1. `addi sp, sp, -16`  
+   → `0xff010113`
+
+2. `sd ra, 8(sp)`  
+   → `0x00813023`
+
+3. `li a5, 150` (pseudo → `addi a5, x0, 150`)  
+   → `0x09600793`
+
+4. `addiw a5, a5, -1`  
+   → `0xfff7879b`
+
+5. `bnez a5, 10190` (pseudo → `bne a5, x0, target`)  
+   → **PC-relative, needs current PC to compute**
+
+6. `lui a2, 0x3`  
+   → `0x00003137`
+
+7. `addi a2, a2, -963`  
+   → `0xc6d60613`
+
+8. `li a1, 150` (pseudo → `addi a1, x0, 150`)  
+   → `0x09600593`
+
+9. `lui a0, 0x21`  
+   → `0x00021537`
+
+10. `addi a0, a0, 400`  
+    → `0x19050513`
+
+11. `jal ra, 10418`  
+    → **PC-relative, needs current PC to compute**
+
+12. `li a0, 0` (pseudo → `addi a0, x0, 0`)  
+    → `0x00000513`
+
+13. `ld ra, 8(sp)`  
+    → `0x00813083`
+
+14. `addi sp, sp, 16`  
+    → `0x01010113`
+
+15. `ret` (pseudo → `jalr x0, 0(ra)`)  
+    → `0x00008067`
+
+   
