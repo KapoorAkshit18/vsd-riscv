@@ -29,9 +29,10 @@ eg:
 this will make a1 lower 12 bit to be zero or garbage value and upper 20 bits to be 0x80000 in hexadecimal. Simillarly, addi but with addition to the existing value.
 eg:  
 `addi sp, sp, -16`
-Task 2/sum_1_to_n_ofast.o
+
 <img src="https://github.com/KapoorAkshit18/vsd-riscv/blob/main/Task%202%2Fo1.png" alt="Alt text" width="1000">
 
+<img src="(https://github.com/KapoorAkshit18/vsd-riscv/blob/main/Task%203/spike.png)" alt="Alt text" width="1000">
   
 To study about the RISCV asm instructions with a focus on our program's asm.
 ```
