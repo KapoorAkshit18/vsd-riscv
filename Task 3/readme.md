@@ -32,7 +32,7 @@ eg:
 
 <img src="https://github.com/KapoorAkshit18/vsd-riscv/blob/main/Task%202%2Fo1.png" alt="Alt text" width="1000">
 
-<img src="(https://github.com/KapoorAkshit18/vsd-riscv/blob/main/Task%203/spike.png)" alt="Alt text" width="1000">
+<img src="https://github.com/KapoorAkshit18/vsd-riscv/blob/main/Task%203/spike.png" alt="Alt text" width="1000">
   
 To study about the RISCV asm instructions with a focus on our program's asm.
 ```
