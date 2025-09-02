@@ -20,3 +20,4 @@ eg:
 this will make a1 lower 12 bit to be zero or garbage value and upper 20 bits to be 0x80000 in hexadecimal. Simillarly, addi but with addition to the existing value.
 eg:  
 `addi sp, sp, -16`
+Task 2/sum_1_to_n_ofast.o
