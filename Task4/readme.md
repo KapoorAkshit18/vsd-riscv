@@ -1,6 +1,6 @@
 **Task 4**
     
-##FUnctional SImulation of RISC-V Core using iverilog and gtkwave.
+## Functional SImulation of RISC-V Core using iverilog and gtkwave.
 
 <details> The ubuntu .ini file have iverilog and gtkwave preinstalled, so, only few commands and waveform analysis part remains, which is completed in this task and can be verified from the task 4 repository. It is an implementation of the Task 3, which was to know about the RISC-V instructions and understand its instruction encoding. The verilog code provided have implemented basic blocks of the cpu like fetch, decode, execute (exe), etc. The testbench file have only have 1 test case which is of initializing the rn and clock signal and making rn zero again. Furthermore, the credit for this verilog code goes to https://github.com/vinayrayapati/rv32i. The commands of it can also be found out in the task4 readme file.
 </details>
