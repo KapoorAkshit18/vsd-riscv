@@ -9,7 +9,9 @@ Commands for running the verilog compiler and simulator:
 `iverilog -o your executable file name your verilog file/files name.v `
 eg: iverilog -o rv32i_tb_exe2 rv32i.v  rv32i_tb.v  
 <details> Multiple files are seperated by space here. Most likely error message will pop up or nothing will happen. We expect second case here. After this we need to open the executable file that icarus have made. </details> 
+
 `vvp your executable file name`
+
 eg: vvp rv32i_tb_exe2  
 below output if came we can move to the next command.
   
