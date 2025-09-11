@@ -61,5 +61,5 @@ The project reads input from a PIR sensor connected to PD3 and controls a servo 
 ---
 
 ## Video
-[Insert video link or file demonstrating servo motion on PIR detection]
+https://drive.google.com/file/d/1rWYUcUcpKw0DXrNW_oZHmJplnO14hdTf/view?usp=drivesdk
 
