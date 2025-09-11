@@ -19,7 +19,7 @@ This project demonstrates how to connect a PIR motion sensor and a servo motor t
 | PIR Sensor VCC   | 3.3V or 5V                      | VCC          | Power supply to PIR sensor |
 | PIR Sensor GND   | GND                             | GND          | Ground connection |
 | PIR Sensor OUT   | GPIO Pin (e.g., D3)             | Signal Input | Detects motion, digital output |
-| Servo Motor VCC  | 5V                              | Power supply | Separate regulated power if needed |
+| Servo Motor VCC  | 5V                              | Power supply | Squadron board mini's  |
 | Servo Motor GND  | GND                             | Ground      | Common ground with board and sensor |
 | Servo Motor PWM  | GPIO Pin (e.g., D2)             | Control Signal | PWM control for servo position |
 
