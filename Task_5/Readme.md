@@ -1,7 +1,8 @@
 # Task 5: A brief about what previous task  
 
-<details> from the task 4, if see the Verilog code used in it, it is having hardcoded instructions, which is not equivalent to the standard ISA encoding for RISCV. For example: for the add instruction `add r1, r2, r3 ` riscv encoding is 0x3100b3 where as in our simulation waveform we have got 0x 02208300 that make our design check failed for the System on Chip Design flow (not inside our course scope). To make the circuit diagram ckt designer is utilized. </details>.  
-# Smart Motion Detector with Servo Motor using Squadron Board Mini
+<details> from the task 4, if see the Verilog code used in it, it is having hardcoded instructions, which is not equivalent to the standard ISA encoding for RISCV. For example: for the add instruction `add r1, r2, r3 ` riscv encoding is 0x3100b3 where as in our simulation waveform we have got 0x 02208300 that make our design check failed for the System on Chip Design flow (not inside our course scope). To make the circuit diagram ckt designer is utilized. </details>.    
+
+# Mini Project Smart Motion Detector with Servo Motor using Squadron Board Mini
 
 This project demonstrates how to connect a PIR motion sensor and a servo motor to the **Squadron Board Mini** to create a motion-based automated mechanism.
 
