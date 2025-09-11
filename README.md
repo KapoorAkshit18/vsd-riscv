@@ -1,5 +1,5 @@
 # 4 Week Internship by VLSI System Design by Kunal Ghosh
-## Focus: Hardware synthesis on the FPGA (VSDSquadron) 
+## Focus: Hardware synthesis on the Dev Board (VSDSquadron-mini) 
 
 <details>
 <summary>About VSDSquadron and platform used throuout the internship.Few abbreviations <asm> means assembly.  
