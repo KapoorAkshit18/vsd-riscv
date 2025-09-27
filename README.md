@@ -190,7 +190,8 @@ Command for running gtk wave for running the vcd file, made through tb file by t
 ` gtkwave rv32i_tb.vcd` 
 
 
-<details> The waveform (attached the png file in the repository) verifies functionality of the riscv core, as npc denotes program counter increament per clock cycle and, from the add instruction encoding and simulation the result is 3 can be seen. </details> 
+<details> The waveform (attached the png file in the repository) verifies functionality of the riscv core, as npc denotes program counter increament per clock cycle and, from the add instruction encoding and simulation the result is 3 can be seen. </details>   
+
 # Task 5: A brief about what previous task  
 
 <details> from the task 4, if see the Verilog code used in it, it is having hardcoded instructions, which is not equivalent to the standard ISA encoding for RISCV. For example: for the add instruction `add r1, r2, r3 ` riscv encoding is 0x3100b3 where as in our simulation waveform we have got 0x 02208300 that make our design check failed for the System on Chip Design flow (not inside our course scope). To make the circuit diagram ckt designer is utilized. </details>.    
