@@ -2,7 +2,7 @@
 ## Focus: Hardware synthesis on the Dev Board (VSDSquadron-mini) 
 
 <details>
-<summary>About VSDSquadron and platform used throuout the internship.Few abbreviations <asm> means assembly.  
+<summary>About VSDSquadron and platform used throuout the internship.Few abbreviations <asm> means assembly. As, we all have used arduino UNO, we will get to know many differences, which will help to understand both the boards. 
 </summary>
 
 
