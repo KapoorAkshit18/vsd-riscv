@@ -233,6 +233,14 @@ This project demonstrates how to connect a PIR motion sensor and a servo motor t
 - Implement wireless notifications or logging.
 - Integrate with IoT platforms for remote monitoring.
 
+<details>
+<summary> Coming Soon </summary>
+We will soon be adding the riscv flashing process in which we will get to know about the .ld files, startup files and the headers and linking of the object file we had just created so, to get the .elf file. Finally, we will convert .elf into binary file and using WCH-LinkE linker, we will we will flash the bin file into the squadron mini board.  
 
+</details>  
+
+---  
+
+Acknowledgement: Kunal Ghosh Sir.
 
    
