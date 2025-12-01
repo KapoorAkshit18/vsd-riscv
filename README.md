@@ -17,7 +17,7 @@ Feel free to explore the Tasks folders where you will find the necessary codes a
 
 
 
-Oracle Virtual Machine platform is used for running the ubuntu linux vmi as provided. It is an user friendly desktop app used for virualization.
+Oracle Virtual Machine platform is used for running the ubuntu linux vmi as provided. It is an user friendly desktop app used for virtualization.
 </details>
 
 **Task 1**                                              <!-- add these commands only not explanation in the task folders -->
